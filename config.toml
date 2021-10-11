@@ -15,10 +15,10 @@
 baseURL = "https://yesming.github.io/"
 languageCode = "ko-kr"
 defaultContentLanguage = "ko-kr"
-title = "Hugo tranquilpeak theme"
+title = "자율주행 개발자의 생각노트"
 theme = "hugo-tranquilpeak-theme"
-disqusShortname = "hugo-tranquilpeak-theme"
-# googleAnalytics = "G-289365635"
+disqusShortname = "Autonomous Driving"
+googleAnalytics = "G-289365635"
 paginate = 7
 canonifyurls = true
 
@@ -44,16 +44,18 @@ canonifyurls = true
 # Author
 # ------
 [author]
-  name = "자율주행 개발자의 생각"
-  bio = "자율주행 알고리즘을 개발하며 드는 생각과 일상을 정리합니다"
+  name = "자율주행 개발자의 생각노트"
+  bio = "자율주행 알고리즘을 개발하며 드는  <br/> 생각과 일상을 정리합니다"
   job = "Autonomous Driving Engineer"
-  location = "Seoul"
+  location = "Seoul, Republic of Korea"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-  gravatarEmail = "yesming.em@gmail.com"
+ # gravatarEmail = "yesming.em@gmail.com"
+ gravatarEmail = ""
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  picture = "https://drive.google.com/file/d/1yCPCfpt7UQv1-Ygwmqz1vOt-0dBl-DeE/view?usp=sharing"
-  #picture = "images/logo.png"
+ #picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
+  picture = "images/Eunmin.png"
+  gravatarEmail = "images/Eunming.png"
   # Your Twitter username without the @. E.g : thibaudlepretre
   # twitter = "thibaudlepretre"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
@@ -86,32 +88,40 @@ canonifyurls = true
   name = "Archives"
   pre = "<i class=\"sidebar-button-icon fas fa-lg fa-archive\" aria-hidden=\"true\"></i>"
   url = "/archives"
-[[menu.main]]
-  weight = 5
-  identifier = "about"
-  name = "About"
-  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-question\" aria-hidden=\"true\"></i>"
-  url = "/#about"
 
 [[menu.links]]
   weight = 1
   identifier = "github"
   name = "GitHub"
   pre = "<i class=\"sidebar-button-icon fab fa-lg fa-github\" aria-hidden=\"true\"></i>"
-  url = "https://github.com/kakawait"
+  url = "https://github.com/yesming"
 [[menu.links]]
   weight = 2
-  identifier = "stackoverflow"
-  name = "Stack Overflow"
-  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-stack-overflow\" aria-hidden=\"true\"></i>"
+  identifier = "notion"
+  name = "Portfolio"
+  pre = "<i class=\"sidebar-button-icon far fa-address-card\" aria-hidden=\"true\"></i>"
   url = "https://stackoverflow.com/users/636472/kakawait"
 
-[[menu.misc]]
-  weight = 1
-  identifier = "rss"
-  name = "RSS"
-  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-rss\" aria-hidden=\"true\"></i>"
-  url = "/index.xml"
+[[menu.links]]
+  weight = 3
+  identifier = "about"
+  name = "About"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-question\" aria-hidden=\"true\"></i>"
+  url = "https://voracious-scowl-0b0.notion.site/Eunmin-Hwang-13216386b0a943398340579b3d7585af"
+
+[[menu.links]]
+  weight = 4
+  identifier = "email"
+  name = "E-mail"
+  pre = "<i class=\"sidebar-button-icon far fa-envelope\" aria-hidden=\"true\"></i>"
+  url = "yesming.em@gmail.com"
+  
+#[[menu.misc]]
+#  weight = 1
+#  identifier = "rss"
+#  name = "RSS"
+#  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-rss\" aria-hidden=\"true\"></i>"
+#  url = "/index.xml"
 
 # -------------
 # Customization
@@ -286,7 +296,7 @@ canonifyurls = true
     crossorigin = "anonymous"
     async = true
     defer = true
-
+    
   # ---------------
   # Sharing options
   # ---------------
