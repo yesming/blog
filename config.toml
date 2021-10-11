@@ -84,9 +84,9 @@ home = "Home"
 description = "This is meta description"
 author = "Themefisher"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+googleAnalitycsID = "G-289365635"
 # Contact Information
-mobile = "+92) 10-6295-8204"
+mobile = "+82) 10-6295-8204"
 email = "yesming.em@gmail.com"
 location = "Ulsan, Republic of Korea"
 # copyright
@@ -116,14 +116,9 @@ expire_days = 2
 
 ############################# social site ########################
 [[params.social]]
-title = "facebook"
-icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-title = "twitter"
-icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#"
+title = "notion"
+icon = "ti-bookmark-alt" # themify icon : https://themify.me/themify-icons
+link = "https://voracious-scowl-0b0.notion.site/Eunmin-Hwang-13216386b0a943398340579b3d7585af"
 
 [[params.social]]
 title = "instagram"
@@ -133,7 +128,7 @@ link = "#"
 [[params.social]]
 title = "github"
 icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "yesming.github.io"
 
 [[params.social]]
 title = "linkedin"
